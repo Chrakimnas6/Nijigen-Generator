@@ -34,7 +34,8 @@ def ending():
 
 if __name__ == "__main__":
     thu1 = thulac.thulac()
-    text = thu1.cut("这玩意儿有够无聊的", text=True)
+    sen = input("Input your sentence: ")
+    text = thu1.cut(sen, text=True)
     splited_text = text.split()
     #print(splited_text)
 
